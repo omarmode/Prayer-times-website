@@ -167,27 +167,37 @@ function MainComponent() {
         <PrayersCard
           name={"الفجر"}
           time={Timings.Fajr}
-          image={"/public/الفجر.png"}
+          image={
+            "https://wepik.com/api/image/ai/9a07baa7-b49b-4f6b-99fb-2d2b908800c2"
+          }
         />
         <PrayersCard
           name={"الضهر"}
           time={Timings.Dhuhr}
-          image={"/public/الظهر.png"}
+          image={
+            "https://wepik.com/api/image/ai/9a07bb45-6a42-4145-b6aa-2470408a2921"
+          }
         />
         <PrayersCard
           name={"العصر"}
           time={Timings.Asr}
-          image={"/public/العصر.png"}
+          image={
+            "https://wepik.com/api/image/ai/9a07bb90-1edc-410f-a29a-d260a7751acf"
+          }
         />
         <PrayersCard
           name={"المغرب"}
           time={Timings.Maghrib}
-          image={"/public/المغرب.png"}
+          image={
+            "https://wepik.com/api/image/ai/9a07bbe3-4dd1-43b4-942e-1b2597d4e1b5"
+          }
         />
         <PrayersCard
           name="العشاء"
           time={Timings.Isha}
-          image={"/public/العشاء.png"}
+          image={
+            "https://wepik.com/api/image/ai/9a07bc25-1200-4873-8743-1c370e9eff4d"
+          }
         />
       </Stack>
       {/**prayers cards  */}

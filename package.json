@@ -1,9 +1,12 @@
 {
+  "homepage": "https://omarmode.github.io/Prayer-times-website",
   "name": "prayers-timings",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -14,6 +17,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.14",
     "axios": "^1.6.8",
+    "gh-pages": "^6.1.1",
     "lottie-react": "^2.4.0",
     "moment": "^2.30.1",
     "react": "^18.2.0",
